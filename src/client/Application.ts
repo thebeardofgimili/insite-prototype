@@ -11,7 +11,7 @@ declare var process: {
 
 const ENDPOINT = (process.env.NODE_ENV==="development")
     ? "ws://localhost:8080"
-    : "wss://insite-beta.herokuapp.com";
+    : "wss://insite-prototype.herokuapp.com";
 
 export const lerp = (a: number, b: number, t: number) => (b - a) * t + a
 
