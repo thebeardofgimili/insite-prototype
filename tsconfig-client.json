@@ -12,7 +12,7 @@
     },
     "include": [
       "src/client/**/*.ts",
-    ]
+    ],
     "exclude": [
     "node_modules/*"
     ]
