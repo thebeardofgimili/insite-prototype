@@ -87,7 +87,7 @@ app.use((req, res, next) => {
 // on development, use "../../" as static root
 //STATIC_DIR = path.resolve(__dirname, "..", "..");
 //game
-app.all('*', (req, res, next) => {
+/*app.all('*', (req, res, next) => {
   if(!req.url.includes('users')){
     console.log(req.url);
     ensureAuthenticated(req, res, next);
@@ -96,7 +96,7 @@ app.all('*', (req, res, next) => {
     console.log(req.url);
     next();
   }
-});
+});*/
 
 //game!
 STATIC_DIR = path.resolve(__dirname, "..", "..");
