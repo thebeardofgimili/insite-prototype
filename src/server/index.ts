@@ -88,8 +88,7 @@ app.use((req, res, next) => {
 //STATIC_DIR = path.resolve(__dirname, "..", "..");
 //game
 app.all('*', (req, res, next) => {
-  //if(!req.url.includes('users')){
-    if(req.url != '/users/login'){
+  if(!req.url.includes('users')){
     console.log(req.url);
     ensureAuthenticated(req, res, next);
   }   
