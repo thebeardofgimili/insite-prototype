@@ -9,13 +9,11 @@
         "noImplicitAny": false,
         "esModuleInterop": true,
         "strict": true,
-        "sourceMap": false
+        "sourceMap": false,
+        "skipLibCheck": true
     },
     "include": [
       "src/server/**/*.ts"
-    ],
-    "files": [
-     "node_modules/typescript/lib/lib.es6.d.ts"
     ],
     "exclude": [
     "node_modules/*"
