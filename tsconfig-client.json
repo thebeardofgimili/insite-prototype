@@ -3,6 +3,7 @@
         "outDir": "lib",
         "module": "commonjs",
         "experimentalDecorators": true,
+        "skipLibCheck": true,
         "lib": ["es6", "dom"],
         "jsx": "react",
         "target": "es5",
