@@ -41,7 +41,7 @@ export class Application extends PIXI.Application {
             screenHeight: window.innerHeight,
         });
         // Draw map
-        const map = PIXI.Sprite.from('../../resources/maps/SampleMap.png');
+        const map = PIXI.Sprite.from('https://res.cloudinary.com/insitecloud/image/upload/v1587918429/currWorkplace_kxc07u.png');
         map.x = -220; map.y = -289;
         this.viewport.addChild(map);
 
