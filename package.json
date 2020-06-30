@@ -52,7 +52,7 @@
     "express": "^4.14.0",
     "express-basic-auth": "^1.1.6",
     "express-ejs-layouts": "^2.5.0",
-    "express-jwt": "^5.3.1",
+    "express-jwt": "^6.0.0",
     "express-session": "^1.17.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "file-loader": "^3.0.1",
