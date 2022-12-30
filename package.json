@@ -43,7 +43,7 @@
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.15.2",
     "cloudinary": "^1.21.0",
-    "colyseus": "^0.12.0",
+    "colyseus": "^0.14.24",
     "colyseus.js": "^0.12.0",
     "connect-flash": "^0.1.1",
     "connect-multiparty": "^2.2.0",
